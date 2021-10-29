@@ -1,6 +1,6 @@
-module git.inverse.ca/inverse/fingerbank-api-golang
+module github.com/julsemaan/zammitinator-3000
 
-go 1.12
+go 1.16
 
 require (
 	github.com/DataDog/datadog-go v2.2.0+incompatible
@@ -46,7 +46,3 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.2.8
 )
-
-replace git.inverse.ca/inverse/fingerbank-api-golang => ./
-
-replace git.inverse.ca/inverse/fingerbank-api-golang/caddy/caddy => ./caddy/caddy
